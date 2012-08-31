@@ -1,0 +1,9 @@
+- available = SFPL::Passes.available
+- available.each do |museum|
+
+  %dl
+    %dt= museum.keys.first.to_s.titleize
+    %dd
+      %ul
+        - museum[museum.keys.first].each do |library|
+          %li= "#{library[:library]} - #{library[:status].to_s.humanize}"
