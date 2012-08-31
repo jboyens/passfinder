@@ -7,7 +7,6 @@ gem 'rails', '3.2.8'
 
 gem 'sqlite3'
 
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -31,6 +30,8 @@ group :development do
   gem 'guard'
   gem 'guard-spork'
   gem 'guard-bundler'
+
+  gem 'heroku_san'
 end
 
 group :test do
