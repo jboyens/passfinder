@@ -7,6 +7,8 @@ gem 'rails', '3.2.8'
 
 gem 'pg'
 gem 'haml-rails'
+gem 'delayed_job_active_record'
+gem 'daemons'
 
 # Gems used only for assets and not required
 # in production environments by default.
